@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* height: 100vh; */
+	/* overflow: scroll; */
+	min-height: 100vh;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background: rgb(209, 208, 208);
+}
+
+.css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone:nth-child(2n) {
+	background-color: black;
+}
